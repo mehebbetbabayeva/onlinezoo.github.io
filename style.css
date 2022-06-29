@@ -1,0 +1,1053 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.contanier .firstscreen {
+  width: 100%;
+  background-color: #FCFCFC;
+  padding: 25px 40px 0 40px;
+}
+
+.contanier .firstscreen .firstscreen__header {
+  width: 100%;
+  height: 70px;
+  background: #fcfcfc05;
+  border: 2px solid #F0F0F0;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contanier .firstscreen .firstscreen__header .header__navlogo {
+  width: 70px;
+  border-right: 2px solid #f0f0f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contanier .firstscreen .firstscreen__header .header__navitems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contanier .firstscreen .firstscreen__header .header__navitems ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contanier .firstscreen .firstscreen__header .header__navitems ul a {
+  font-family: 'Rubik' , sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 154%;
+  color: #080029;
+  margin-left: 100px;
+}
+
+.contanier .firstscreen .firstscreen__header .header__navaccount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+}
+
+.contanier .firstscreen__main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 510px;
+}
+
+.contanier .firstscreen__main .main__iconnav {
+  width: 70px;
+  height: 510px;
+  background: rgba(255, 255, 255, 0.02);
+  border-right: 2px solid #F0F0F0;
+  border-left: 2px solid #F0F0F0;
+  border-bottom: 2px solid #F0F0F0;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contanier .firstscreen__main .main__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 70px;
+  width: 500px;
+}
+
+.contanier .firstscreen__main .main__text h2 {
+  font-family: 'Rubik' ,sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.115em;
+  color: #626262;
+}
+
+.contanier .firstscreen__main .main__text p {
+  font-family: 'Merriweather' ,sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 70px;
+  color: #080029;
+}
+
+.contanier .firstscreen__main .main__text .main__text__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contanier .firstscreen__main .main__text .main__text__btn .main__btn--blue {
+  background: #0F0049;
+  margin-right: 50px;
+}
+
+.contanier .firstscreen__main .main__text .main__text__btn .main__btn--blue a {
+  color: #FFFFFF;
+}
+
+.contanier .firstscreen__main .main__text .main__text__btn .main__btn {
+  background: #FFFFFF;
+  border: 2px solid  #0F0049;
+}
+
+.contanier .firstscreen__main .main__text .main__text__btn .main__btn a {
+  color: #0F0049;
+}
+
+.contanier .firstscreen__main .main__text .main__text__btn .main__btn--blue, .contanier .firstscreen__main .main__text .main__text__btn .main__btn {
+  font-family: 'Rubik' ,sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  border-radius: 5px;
+  width: 209px;
+  height: 51px;
+}
+
+.contanier .firstscreen__main .main__img {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 600px;
+}
+
+.contanier .firstscreen__main .main__img img {
+  width: 450px;
+  height: 456px;
+}
+
+.contanier .secondscreen {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #FCFCFC;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 100px 40px;
+}
+
+.contanier .secondscreen .secondscreen__img {
+  width: 675px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.contanier .secondscreen .secondscreen__img img {
+  float: right;
+  height: auto;
+}
+
+.contanier .secondscreen .secondscreen__text {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 55px;
+  margin-left: 40px;
+}
+
+.contanier .secondscreen .secondscreen__text h2 {
+  font-family: 'Rubik' , sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.115em;
+  color: #0B0B0B;
+  margin-bottom: 45px;
+}
+
+.contanier .secondscreen .secondscreen__text .pfirst {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 145%;
+  color: #080029;
+  margin-bottom: 35px;
+  width: 544px;
+  height: 123px;
+}
+
+.contanier .secondscreen .secondscreen__text .psecond {
+  font-family: 'Rubik' ,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 154%;
+  color: #747474;
+  width: 550px;
+  height: 75px;
+  margin-bottom: 50px;
+}
+
+.contanier .secondscreen .secondscreen__text .secondscreen__btn {
+  width: 211px;
+  height: 59px;
+  background: #0F0049;
+  border-radius: 5px;
+}
+
+.contanier .secondscreen .secondscreen__text .secondscreen__btn a {
+  font-family: 'Rubik',sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FCFCFC;
+}
+
+.contanier .thirdscreen {
+  width: 100%;
+  height: 100vh;
+  background-color: #D9E8FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contanier .thirdscreen .thirdscreen__text {
+  width: 470px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contanier .thirdscreen .thirdscreen__text .thirdscreen__txt h2 {
+  width: 150px;
+  height: 24px;
+  font-family: 'Rubik' ,sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.115em;
+  color: #0B0B0B;
+  margin-bottom: 50px;
+}
+
+.contanier .thirdscreen .thirdscreen__text .thirdscreen__txt p {
+  width: 215px;
+  height: 123px;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 145%;
+  color: #080029;
+  margin-bottom: 30px;
+}
+
+.contanier .thirdscreen .thirdscreen__text .thirdscreen__txt .slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 132px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contanier .thirdscreen .thirdscreen__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+}
+
+.contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 300px 300px;
+      grid-template-rows: 300px 300px;
+  -ms-grid-columns: 300px 300px;
+      grid-template-columns: 300px 300px;
+  grid-auto-flow: column;
+  grid-gap: 20px;
+}
+
+.contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .littlepanda {
+  background-image: url(asset/littlepanda.png);
+}
+
+.contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .penguen {
+  background-image: url(asset/penguen.png);
+}
+
+.contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .panda {
+  background-image: url(asset/panda.png);
+}
+
+.contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .eagle {
+  background-image: url(asset/eagle.png);
+}
+
+.contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .littlepanda, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .panda, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .eagle, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .penguen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-position: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-repeat: no-repeat;
+}
+
+.contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .littlepanda:hover .littlepandah, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .panda:hover .littlepandah, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .eagle:hover .littlepandah, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .penguen:hover .littlepandah {
+  display: block;
+}
+
+.contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .littlepanda:hover .btn1, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .panda:hover .btn1, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .eagle:hover .btn1, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .penguen:hover .btn1 {
+  display: none;
+}
+
+.contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .littlepanda .littlepandah, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .panda .littlepandah, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .eagle .littlepandah, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .penguen .littlepandah {
+  display: none;
+}
+
+.contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .littlepanda .littlepandah .circle, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .panda .littlepandah .circle, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .eagle .littlepandah .circle, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .penguen .littlepandah .circle {
+  padding-top: 30px;
+  width: 184px;
+  height: 184px;
+  background: #0b0b0b1a;
+  border: 2px solid #fcfcfc4d;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .littlepanda .littlepandah .circle h1, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .panda .littlepandah .circle h1, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .eagle .littlepandah .circle h1, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .penguen .littlepandah .circle h1 {
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 154%;
+  color: #FCFCFC;
+}
+
+.contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .littlepanda .littlepandah .txt, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .panda .littlepandah .txt, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .eagle .littlepandah .txt, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .penguen .littlepandah .txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .littlepanda .littlepandah .txt h1, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .panda .littlepandah .txt h1, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .eagle .littlepandah .txt h1, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .penguen .littlepandah .txt h1 {
+  font-family: 'Rubik' ,sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FCFCFC;
+  padding-right: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .littlepanda .littlepandah .txt img, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .panda .littlepandah .txt img, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .eagle .littlepandah .txt img, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .penguen .littlepandah .txt img {
+  width: 20px;
+  height: 8px;
+}
+
+.contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .littlepanda img, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .panda img, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .eagle img, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .penguen img {
+  width: 59px;
+  height: 59px;
+  margin-bottom: 20px;
+}
+
+.contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .littlepanda h1, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .panda h1, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .eagle h1, .contanier .thirdscreen .thirdscreen__img .thirdscreen__img__items .penguen h1 {
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FCFCFC;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+.contanier .fourthscreen {
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+}
+
+.contanier .fourthscreen .fourthscreen__title {
+  display: inline-block;
+  padding: 0 0 100px 150px;
+}
+
+.contanier .fourthscreen .fourthscreen__title h1 {
+  font-family: 'Rubik' , sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.115em;
+  color: #0B0B0B;
+}
+
+.contanier .fourthscreen .fourthscreen__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contanier .fourthscreen .fourthscreen__img .fourthscreen__img1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 100px;
+}
+
+.contanier .fourthscreen .fourthscreen__img .fourthscreen__img1 img {
+  margin-right: 30px;
+}
+
+.contanier .fourthscreen .fourthscreen__img .fourthscreen__img1 .img__txt {
+  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contanier .fourthscreen .fourthscreen__img .fourthscreen__img1 .img__txt h1 {
+  font-family: 'Merriweather' , sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 145%;
+  color: #0F0049;
+  margin-bottom: 30px;
+}
+
+.contanier .fourthscreen .fourthscreen__img .fourthscreen__img1 .img__txt p {
+  font-family: 'Rubik' , sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 154%;
+  color: #747474;
+}
+
+.contanier .fifthscreen {
+  width: 100%;
+  height: 100vh;
+  background-color: #080029;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contanier .fifthscreen .fifthscreen__part1 {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 150px;
+}
+
+.contanier .fifthscreen .fifthscreen__part1 .text--btn .texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contanier .fifthscreen .fifthscreen__part1 .text--btn .texts h1 {
+  font-family: 'Rubik' , sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.115em;
+  color: #FCFCFC;
+  width: 142px;
+  height: 24px;
+  margin-bottom: 40px;
+}
+
+.contanier .fifthscreen .fifthscreen__part1 .text--btn .texts h2 {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 145%;
+  color: #FCFCFC;
+  width: 317px;
+  height: 41px;
+  margin-bottom: 40px;
+}
+
+.contanier .fifthscreen .fifthscreen__part1 .text--btn .texts p {
+  font-family: 'Rubik' , sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 154%;
+  color: #D3D3D3;
+  width: 392px;
+  height: 100px;
+}
+
+.contanier .fifthscreen .fifthscreen__part1 .buttons {
+  margin-top: 100px;
+}
+
+.contanier .fifthscreen .fifthscreen__part1 .buttons button {
+  width: 300px;
+  height: 50px;
+  background-color: #080029;
+  border: 1px solid #fff;
+}
+
+.contanier .fifthscreen .fifthscreen__part1 .buttons button a {
+  width: 136px;
+  height: 21px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FCFCFC;
+}
+
+.contanier .fifthscreen .fifthscreen__part2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 150px;
+}
+
+.contanier .fifthscreen .fifthscreen__part2 a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+}
+
+.contanier .fifthscreen .fifthscreen__part2 a h1 {
+  font-family: 'Rubik' , sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FCFCFC;
+}
+
+.contanier .fifthscreen .fifthscreen__part2 a img {
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 21px;
+  height: 10px;
+}
+
+.contanier .fifthscreen .fifthscreen__part2 img {
+  margin-bottom: 20px;
+}
+
+.contanier .fifthscreen .fifthscreen__part2 .btn-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contanier .fifthscreen .fifthscreen__part2 .btn-2 a img {
+  margin-right: 20px;
+  width: 56px;
+  height: 56px;
+}
+
+.contanier .sixthscreen {
+  width: 100%;
+  height: 100vh;
+  background: #FCFCFC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contanier .sixthscreen .sixthscreen__text-pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 40%;
+}
+
+.contanier .sixthscreen .sixthscreen__text-pic .title h1 {
+  width: 292px;
+  font-family: 'Rubik';
+  display: inline-block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.115em;
+  color: #0B0B0B;
+  text-align: left;
+}
+
+.contanier .sixthscreen .sixthscreen__text-pic .pic {
+  background: #FCFCFC;
+  -webkit-box-shadow: 3px 12px 24px rgba(0, 0, 0, 0.07);
+          box-shadow: 3px 12px 24px rgba(0, 0, 0, 0.07);
+  border-radius: 15px;
+  width: 292px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 448px;
+}
+
+.contanier .sixthscreen .sixthscreen__text-pic .pic img {
+  border-radius: 15px 15px 0 0;
+  -webkit-border-radius: 15px 15px 0 0;
+  -moz-border-radius: 15px 15px 0 0;
+  -ms-border-radius: 15px 15px 0 0;
+  -o-border-radius: 15px 15px 0 0;
+}
+
+.contanier .sixthscreen .sixthscreen__text-pic h1 {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 145%;
+  text-align: center;
+  color: #080029;
+  margin: 15px 0;
+}
+
+.contanier .sixthscreen .sixthscreen__text-pic p {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 154%;
+  text-align: center;
+  color: #747474;
+  margin: 0 15px;
+}
+
+.contanier .sixthscreen .sixthscreen__text-pic div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contanier .sixthscreen .sixthscreen__text-pic div .button {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #3888FF;
+  width: 84px;
+  height: 19px;
+  margin-right: 10px;
+}
+
+.contanier .sixthscreen .sixthscreen__map {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contanier .sixthscreen .sixthscreen__map img {
+  width: 675px;
+  height: 389px;
+}
+
+.contanier .seventhscreen {
+  width: 100%;
+  height: 100vh;
+  background-color: #0B0B0B;
+}
+
+.contanier .seventhscreen .seventhscreen-part1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px 100px 0 45px;
+}
+
+.contanier .seventhscreen .seventhscreen-part1 .svnscreen1 {
+  width: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contanier .seventhscreen .seventhscreen-part1 .svnscreen1 .img1 {
+  width: 120px;
+  height: 90px;
+}
+
+.contanier .seventhscreen .seventhscreen-part1 .svnscreen1 .img2 {
+  width: 120px;
+  height: 62px;
+  margin: 100px 0;
+}
+
+.contanier .seventhscreen .seventhscreen-part1 .svnscreen1 .img3 {
+  width: 128px;
+  height: 47px;
+}
+
+.contanier .seventhscreen .seventhscreen-part1 .svnscreen2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contanier .seventhscreen .seventhscreen-part1 .svnscreen2 h2 {
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.115em;
+  color: #FCFCFC;
+}
+
+.contanier .seventhscreen .seventhscreen-part1 .svnscreen2 .footernav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contanier .seventhscreen .seventhscreen-part1 .svnscreen2 .footernav a {
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 154%;
+  color: #BCBCBC;
+  margin-top: 30px;
+}
+
+.contanier .seventhscreen .seventhscreen-part1 .svnscreen3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contanier .seventhscreen .seventhscreen-part1 .svnscreen3 .footer1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contanier .seventhscreen .seventhscreen-part1 .svnscreen3 .footer1 h2 {
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.115em;
+  color: #FCFCFC;
+}
+
+.contanier .seventhscreen .seventhscreen-part1 .svnscreen3 .footer1 p {
+  width: 332px;
+  height: 84px;
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 154%;
+  color: #BCBCBC;
+  margin: 45px 0;
+}
+
+.contanier .seventhscreen .seventhscreen-part1 .svnscreen3 .footer1 .footer-btn {
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+.contanier .seventhscreen .seventhscreen-part1 .svnscreen3 .footer1 .footer-btn a {
+  margin: 15px 25px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FCFCFC;
+}
+
+.contanier .seventhscreen .seventhscreen-part1 .svnscreen3 .footer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contanier .seventhscreen .seventhscreen-part1 .svnscreen3 .footer2 a {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #BCBCBC;
+}
+
+.contanier .seventhscreen .seventhscreen-part2 {
+  border-top: 1px solid #747474;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  margin: 40px;
+}
+
+.contanier .seventhscreen .seventhscreen-part2 .svnscreen4 {
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  color: #BCBCBC;
+}
+/*# sourceMappingURL=style.css.map */
